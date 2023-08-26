@@ -1,6 +1,9 @@
 # Santa Laurensia's Logo UNOFFICIAL Website
 
+![preview screenshot](https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/screenshot_lol.png)
+
 for school inquiries :/
+
 never would i see the light of day where i needed to use html4 elements to speed up my work process
 
 ( site navbar isn't responsive, broken when window is resized )
