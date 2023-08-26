@@ -13,11 +13,11 @@ body {
 
     0%,
     100% {
-        background-image: url("./assets/IMG_5386-low.jpg")
+        background-image: url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/IMG_5386-low.jpg")
     }
 
     50% {
-        background-image: url("./assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg")
+        background-image: url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg")
     }
 }
 
@@ -27,7 +27,7 @@ body::after {
     height: 0;
     overflow: hidden;
     z-index: -1;
-    content: url("./assets/IMG_5386-low.jpg") url("./assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg");
+    content: url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/IMG_5386-low.jpg") url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg");
     /* preload trick thing */
 }
 
@@ -50,7 +50,7 @@ body::after {
 
 
 section:has(div) {
-    background: url("./assets/home_yellowbg_content.jpg") no-repeat;
+    background: url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/home_yellowbg_content.jpg") no-repeat;
     filter: saturate(1.4);
     background-size: 100% 100%;
     width: inherit;
