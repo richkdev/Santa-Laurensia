@@ -1,6 +1,6 @@
 body {
     user-select: none;
-    background-image: url("./assets/bg_top.jpg");
+    background-image: url("https://raw.githubusercontent.com/richkdev/Santa-Laurensia/main/assets/bg_top.jpg");
     backdrop-filter: saturate(5);
     background-position: top;
     mix-blend-mode: difference;
