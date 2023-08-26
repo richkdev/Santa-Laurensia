@@ -4,13 +4,13 @@
 
 for school inquiries :/
 
-never would i see the light of day where i needed to use html4 elements to speed up my work process
+never would i see the light of day where i needed to use HTML4 elements to speed up my work process
 
 ( site navbar isn't responsive, broken when window is resized )
 
 ## ONLINE VERSION
 
-live at github pages = <https://richkdev.github.io/santa-laurensia>
+live at github pages = <https://richkdev.github.io/Santa-Laurensia>
 
 ## OFFLINE VERSION
 
