@@ -59,7 +59,7 @@ section:has(div) {
     padding: .5em;
 }
 
-section:has(div)>* {
+section:not(.standout):has(div)>* {
     margin-left: 1em;
     margin-right: 6.5em;
 }
@@ -88,7 +88,7 @@ div.box ol li {
     margin-bottom: 1em;
 }
 
-p {
+section:not(.standout) p {
     text-indent: 2.5em;
 }
 
