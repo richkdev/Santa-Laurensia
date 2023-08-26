@@ -1,0 +1,118 @@
+:root {
+    font-size: 14px;
+}
+
+body {
+    margin: 0 !important;
+    animation: changeBg 200s infinite !important;
+    text-align: justify;
+    size: 100%;
+}
+
+@keyframes changeBg {
+
+    0%,
+    100% {
+        background-image: url("/assets/IMG_5386-low.jpg")
+    }
+
+    50% {
+        background-image: url("/assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg")
+    }
+}
+
+body::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url("/assets/IMG_5386-low.jpg") url("/assets/FASADE__SANTA-LAURENSIA-SUVARNA-SUTERA-low.jpg");
+    /* preload trick thing */
+}
+
+@keyframes fadeOut {
+
+    10%,
+    80% {
+        filter: invert(2);
+    }
+
+    0%,
+    100% {
+        filter: none;
+    }
+}
+
+:target {
+    animation: fadeOut 3s ease-out;
+}
+
+
+section:has(div) {
+    background: url("/assets/home_yellowbg_content.jpg") no-repeat;
+    filter: saturate(1.4);
+    background-size: 100% 100%;
+    width: inherit;
+    height: 100%;
+    margin: 2% 5%;
+    padding: .5em;
+}
+
+section:has(div)>* {
+    margin-left: 1em;
+    margin-right: 6.5em;
+}
+
+section.standout {
+    color: white;
+    backdrop-filter: blur(.5em) invert(1) saturate(.7);
+    text-align: center;
+    padding: 2em;
+    text-shadow: 0 0 2em black;
+}
+
+div.box {
+    width: 70%;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    border: .15em black solid;
+}
+
+div.box ol {
+    padding-inline: 1.2em;
+}
+
+div.box ol li {
+    margin-bottom: 1em;
+}
+
+p {
+    text-indent: 2.5em;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    flex: 1;
+    border-bottom: .3em dashed white;
+}
+
+h1:not(:empty)::before {
+    margin-right: .5em;
+}
+
+h1:not(:empty)::after {
+    margin-left: .5em;
+}
+
+a {
+    font-weight: 900;
+    color: blue;
+}
